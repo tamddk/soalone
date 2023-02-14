@@ -1,0 +1,618 @@
+/*
+
+         SODIK PROJECT
+
+* More Information
+* Instagram : @tamddk
+* Whatsapp : wa.me/62895325657488
+*/
+
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+.sodik-document {
+    line-height: 1.5;
+}
+.sodik-document address {
+    font-style: italic;
+    line-height: inherit;
+    margin-bottom: 1rem;
+}
+.sodik-document b,
+.sodik-document strong {
+    font-weight: bolder;
+}
+.sodik-document button {
+    line-height: inherit;
+    margin: 0;
+}
+.sodik-document h1,
+.sodik-document h2,
+.sodik-document h3,
+.sodik-document h4,
+.sodik-document h5,
+.sodik-document h6 {
+    font-weight: 700;
+    line-height: inherit;
+    margin: 0.5rem 0;
+}
+.sodik-document h1 {
+    line-height: 1.15;
+}
+.sodik-document input {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+.sodik-document p {
+    margin: 0.5rem 0;
+}
+.sodik-document pre {
+    display: block;
+    font-size: 0.875rem;
+    margin: 0 0 1rem;
+    overflow: auto;
+}
+.sodik-document ol,
+.sodik-document ul {
+    margin: 0 0 0.5rem;
+    padding-left: 2rem;
+}
+.sodik-document ol ol,
+.sodik-document ol ul,
+.sodik-document ul ol,
+.sodik-document ul ul {
+    margin-bottom: 0;
+}
+.sodik-document {
+    overflow-wrap: break-word;
+}
+@media (max-width: 768px) {
+    .sodik-image img {
+        width: 100%;
+    }
+    .sodik-document .sodik-container-information {
+        width: 100%;
+    }
+    .sodik-document .sodik-container-images.md-w-full {
+        /* width: 100% !important; */
+        display: none;
+    }
+    .sodik-document img.md-w-full {
+        height: auto !important;
+    }
+}
+html,
+body {
+    height: 100%;
+}
+.sodik-document {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+.sodik-content-region {
+    width: 100%;
+}
+.sodik-container-row__inner {
+    margin: 0 auto;
+    max-width: 960px;
+}
+.sodik-signup-form__field {
+    margin-bottom: 1rem;
+}
+.sodik-signup-form__field-label {
+    display: inline-block;
+    margin-bottom: 0.5625rem;
+}
+.sodik-signup-form input {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 0.5625rem;
+    width: 100%;
+}
+.sodik-signup-form input {
+    border-color: #879dab;
+    color: #2a353c;
+}
+.sodik-signup-form__field--is-required .sodik-signup-form__field-label::after {
+    content: " *";
+}
+
+.sodik-document {
+    color: #3f505a;
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+}
+.sodik-document a:not(.sodik-button-element__button) {
+    color: #195aca;
+}
+.sodik-document a:visited:not(.sodik-button-element__button) {
+    color: #195aca;
+}
+.sodik-document a:hover:not(.sodik-button-element__button) {
+    color: #113f8d;
+}
+.sodik-document h1 {
+    font-size: 2.25rem;
+}
+.sodik-document h2 {
+    font-size: 2rem;
+}
+.sodik-document h3 {
+    font-size: 1.75rem;
+}
+.sodik-document h4 {
+    font-size: 1.5rem;
+}
+.sodik-document h5 {
+    font-size: 1.25rem;
+}
+.sodik-document h6 {
+    font-size: 1rem;
+}
+.sodik-button-element__button {
+    border-radius: 0.3125rem;
+}
+.sodik-button-element__button {
+    background-color: #195aca;
+    color: #ffffff;
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+.sodik-button-element__button:hover {
+    background-color: #113f8d;
+    transition: background-color 0.3s ease-in-out;
+}
+.sodik-sharing-footer {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    margin-top: auto;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+.sodik-sharing-footer.sodik-sharing-footer a {
+    background: #ffffff;
+    border: 1px solid #dee0e8;
+    color: #0c7ac0;
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 3px 10px 5px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.sodik-sharing-footer.sodik-sharing-footer a:hover {
+    background: #eeeff3;
+    color: #0c7ac0;
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.sodik-sharing-footer.sodik-sharing-footer a:first-child {
+    border-radius: 3px 0 0 3px;
+    border-right: none;
+}
+.sodik-sharing-footer.sodik-sharing-footer a:last-child {
+    border-radius: 0 3px 3px 0;
+}
+
+.sodik-content-region {
+    position: relative;
+}
+.sodik-container-row__inner {
+    display: flex;
+}
+.sodik-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.sodik-container.align-middle {
+    justify-content: center;
+}
+.sodik-container.align-bottom {
+    justify-content: flex-end;
+}
+.sodik-container-login {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sodik-image {
+    display: flex;
+    justify-content: center;
+}
+.sodik-image.align-left-nowrap {
+    justify-content: flex-start;
+}
+.sodik-image.align-right-nowrap {
+    justify-content: flex-end;
+}
+.sodik-image.align-left {
+    display: inline-block;
+    float: left;
+}
+.sodik-image.align-right {
+    display: inline-block;
+    float: right;
+}
+.sodik-button-element {
+    display: flex;
+    justify-content: center;
+}
+.sodik-button-element__button {
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+.sodik-button-element.align-left {
+    justify-content: flex-start;
+}
+.sodik-button-element.align-right {
+    justify-content: flex-end;
+}
+.sodik-button-element--rounded .sodik-button-element__button {
+    border-radius: 0.3125rem;
+}
+.sodik-button-element--pill .sodik-button-element__button {
+    border-radius: 4.5rem;
+}
+.sodik-button-element--square .sodik-button-element__button {
+    border-radius: 0;
+}
+.aonZo {
+    background-color: #1db954;
+    transition: background-color 0.3s ease-in-out;
+}
+.aonZo:hover {
+    background-color: #179142;
+}
+.sodik-social {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.625rem 0;
+}
+.sodik-social.align-left {
+    justify-content: flex-start;
+}
+.sodik-social.align-center {
+    justify-content: center;
+}
+.sodik-social.align-right {
+    justify-content: flex-end;
+}
+.sodik-social--sm .sodik-social__icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.sodik-social--md .sodik-social__icon {
+    height: 2rem;
+    width: 2rem;
+}
+.sodik-social--lg .sodik-social__icon {
+    height: 3rem;
+    width: 3rem;
+}
+.sodik-social--circle .sodik-social__icon {
+    border-radius: 50%;
+}
+.sodik-social--rounded .sodik-social__icon {
+    border-radius: 10%;
+}
+.sodik-social__link {
+    font-size: 0;
+}
+.sodik-social--sm .sodik-social__link {
+    margin: 0 0.375rem;
+}
+.sodik-social--md .sodik-social__link {
+    margin: 0 0.4375rem;
+}
+.sodik-social--lg .sodik-social__link {
+    margin: 0 0.5rem;
+}
+.sodik-social.align-left .sodik-social__link:first-child {
+    margin-left: 0;
+}
+.sodik-social.align-right .sodik-social__link:last-child {
+    margin-right: 0;
+}
+.sodik-embed {
+    display: flex;
+    justify-content: center;
+}
+.sodik-embed.align-left {
+    justify-content: flex-start;
+}
+.sodik-embed.align-right {
+    justify-content: flex-end;
+}
+.sodik-embed--link img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.sodik-embed--rich .sodik-embed__inner--responsive,
+.sodik-embed--video .sodik-embed__inner--responsive {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.sodik-embed--rich .sodik-embed__inner--responsive iframe,
+.sodik-embed--video .sodik-embed__inner--responsive iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.form-outline .form-control.active ~ .form-label.select-fake-value.active,
+.form-outline .form-control:focus ~ .form-label.select-fake-value.active,
+.form-outline .form-control ~ .form-label.select-fake-value.active {
+    display: block;
+}
+
+.form-outline {
+    position: relative;
+    width: 100%;
+}
+
+.form-outline .form-helper {
+    width: 100%;
+    position: absolute;
+    font-size: 0.875em;
+    color: #757575;
+}
+
+.form-outline .form-helper .form-counter {
+    text-align: right;
+}
+
+.form-outline .trailing {
+    position: absolute;
+    right: 10px;
+    left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.form-outline .form-icon-trailing {
+    padding-right: 2rem !important;
+}
+
+.form-outline .form-control {
+    min-height: auto;
+    padding: 0.32rem 0.75rem;
+    border: 0;
+    background: transparent;
+    transition: all 0.2s linear;
+}
+
+.form-outline .form-control ~ .form-label {
+    position: absolute;
+    top: 0;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    left: 0.75rem;
+    padding-top: 0.37rem;
+    pointer-events: none;
+    transform-origin: 0 0;
+    transition: all 0.2s ease-out;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 0;
+}
+
+.form-outline .form-control ~ .form-notch {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    text-align: left;
+    pointer-events: none;
+}
+
+.form-outline .form-control ~ .form-notch div {
+    pointer-events: none;
+    border: 1px solid #bdbdbd;
+    box-sizing: border-box;
+    background: transparent;
+    transition: all 0.2s linear;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-leading {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0.5rem;
+    border-right: none;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-middle {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: calc(100% - 1rem);
+    height: 100%;
+    border-right: none;
+    border-left: none;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-trailing {
+    flex-grow: 1;
+    height: 100%;
+    border-left: none;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.form-outline .form-control:not(.placeholder-active)::-moz-placeholder {
+    opacity: 0;
+}
+
+.form-outline .form-control:not(.placeholder-active)::placeholder {
+    opacity: 0;
+}
+
+.form-outline .form-control.active::-moz-placeholder,
+.form-outline .form-control:focus::-moz-placeholder {
+    opacity: 1;
+}
+
+.form-outline .form-control.active::placeholder,
+.form-outline .form-control:focus::placeholder {
+    opacity: 1;
+}
+
+.form-outline .form-control:focus {
+    box-shadow: none !important;
+}
+
+.form-outline .form-control.active ~ .form-label,
+.form-outline .form-control:focus ~ .form-label {
+    transform: translateY(-1rem) translateY(0.1rem) scale(0.8);
+}
+
+.form-outline .form-control:focus ~ .form-label {
+    color: #3b71ca;
+}
+
+.form-outline .form-control.active ~ .form-notch .form-notch-middle,
+.form-outline .form-control:focus ~ .form-notch .form-notch-middle {
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid transparent;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-middle {
+    border-color: #3b71ca;
+    box-shadow: 0 1px 0 0 #3b71ca;
+    border-top: 1px solid transparent;
+}
+
+.form-outline .form-control.active ~ .form-notch .form-notch-leading,
+.form-outline .form-control:focus ~ .form-notch .form-notch-leading {
+    border-right: none;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-leading {
+    border-color: #3b71ca;
+    box-shadow: -1px 0 0 0 #3b71ca, 0 1px 0 0 #3b71ca, 0 -1px 0 0 #3b71ca;
+}
+
+.form-outline .form-control.active ~ .form-notch .form-notch-trailing,
+.form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
+    border-left: none;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
+    border-color: #3b71ca;
+    box-shadow: 1px 0 0 0 #3b71ca, 0 -1px 0 0 #3b71ca, 0 1px 0 0 #3b71ca;
+}
+
+.form-outline .form-control.disabled,
+.form-outline .form-control:disabled,
+.form-outline .form-control[readonly] {
+    background-color: #e9ecef;
+}
+
+.form-outline .form-control.form-control-lg {
+    font-size: 1rem;
+    line-height: 2.15;
+}
+
+.form-outline .form-control.form-control-lg ~ .form-label {
+    padding-top: 0.7rem;
+}
+
+.form-outline .form-control.form-control-lg.active ~ .form-label,
+.form-outline .form-control.form-control-lg:focus ~ .form-label {
+    transform: translateY(-1.25rem) translateY(0.1rem) scale(0.8);
+}
+
+.form-outline .form-control.form-control-sm {
+    padding-top: 0.32rem;
+    padding-bottom: 0.32rem;
+    font-size: 0.775rem;
+    line-height: 1.5;
+}
+
+.form-outline .form-control.form-control-sm ~ .form-label {
+    padding-top: 0.33rem;
+    font-size: 0.775rem;
+}
+
+.form-outline .form-control.form-control-sm.active ~ .form-label,
+.form-outline .form-control.form-control-sm:focus ~ .form-label {
+    transform: translateY(-0.85rem) translateY(0.1rem) scale(0.8);
+}
+
+.form-outline.form-white .form-control {
+    color: #fff;
+}
+
+.form-outline.form-white .form-control ~ .form-label {
+    color: #fbfbfb;
+}
+
+.form-outline.form-white .form-control ~ .form-notch div {
+    border-color: #fbfbfb;
+}
+
+.form-outline.form-white .form-control:focus ~ .form-label {
+    color: #fff;
+}
+
+.form-outline.form-white .form-control:focus ~ .form-notch .form-notch-middle {
+    border-color: #fff;
+    box-shadow: 0 1px 0 0 #fff;
+    border-top: 1px solid transparent;
+}
+
+.form-outline.form-white .form-control:focus ~ .form-notch .form-notch-leading {
+    border-color: #fff;
+    box-shadow: -1px 0 0 0 #fff, 0 1px 0 0 #fff, 0 -1px 0 0 #fff;
+}
+
+.form-outline.form-white
+    .form-control:focus
+    ~ .form-notch
+    .form-notch-trailing {
+    border-color: #fff;
+    box-shadow: 1px 0 0 0 #fff, 0 -1px 0 0 #fff, 0 1px 0 0 #fff;
+}
+
+.form-outline.form-white .form-control::-moz-placeholder {
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+.form-outline.form-white .form-control::placeholder {
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+.form-outline.form-white .form-control.disabled,
+.form-outline.form-white .form-control:disabled,
+.form-outline.form-white .form-control[readonly] {
+    background-color: hsla(0, 0%, 100%, 0.45);
+}
