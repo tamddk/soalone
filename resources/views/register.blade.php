@@ -85,7 +85,7 @@
 
                                                 <button class="btn btn-primary btn-lg" type="submit" style=" width: 100%; ">Register</button>
                                                 <div style="margin: 10px 0;">Atau</div>
-                                                <a href="{{url('user/register')}}" style=" width: 100%;">Login</a>
+                                                <a href="{{url('user/login')}}" style=" width: 100%;">Login</a>
                                             </div>
 
                                         </div>
