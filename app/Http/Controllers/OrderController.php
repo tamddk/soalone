@@ -52,7 +52,7 @@ class OrderController extends Controller
 
             DB::table('order_expired')->insert([
                 'order_expired' => $hashed,
-                'active_expired' => 0
+                'active_expired' => 1
             ]);
 
             return redirect("/order/ticket/print/$hashed");
