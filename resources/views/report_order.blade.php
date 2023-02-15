@@ -142,7 +142,7 @@
                                                         <td>{{ $rpt->type_artist_order }}</td>
                                                         <td>{{ $rpt->type_ticket_order }}</td>
                                                         <td>{{ $rpt->count_ticket_order }}</td>
-                                                        <td><button type="button" class="btn {{ $rpt->active_expired == 0 || $rpt->active_expired == 1? 'btn-success' : 'btn-danger' }}">{{ $rpt->active_expired == 0 || $rpt->active_expired == 1? 'Check In' : 'Check Out' }}</button></td>
+                                                        <td><button type="button" class="btn {{ $rpt->active_expired == 2 ? 'btn-danger' : 'btn-success' }}">{{ $rpt->active_expired == 2 ? 'Check Out' : 'Check In' }}</button></td>
                                                     </tr>
                                                     @endforeach
                                                 </tbody>
