@@ -109,24 +109,19 @@ class HomeController extends Controller
         if (Auth::check()) {
             $order = DB::table('order')->where('id_ticket', $request->sodik1)->get();
 
-            $ticketOrder = DB::table('order')->where('id_ticket', $request->sodik1)->first();
             $ticketExp = DB::table('order_expired')->where('order_expired', $request->sodik1)->first();
-            if ($ticketExp) {
+            if ($ticketExp->active_expired == 1) {
                 DB::table('order_expired')->where('order_expired', $request->sodik1)->update([
                     'order_expired' => $request->sodik1,
                     'active_expired' => 2
                 ]);
                 return view('pesan_checking_expired', ['order' => $order]);
             } else {
-                if ($ticketOrder) {
-                    DB::table('order_expired')->insert([
-                        'order_expired' => $request->sodik1,
-                        'active_expired' => 1
-                    ]);
-                    return view('pesan_checking_data', ['order' => $order]);
-                } else {
-                    return view('pesan_checking_expired');
-                }
+                DB::table('order_expired')->insert([
+                    'order_expired' => $request->sodik1,
+                    'active_expired' => 1
+                ]);
+                return view('pesan_checking_data', ['order' => $order]);
             }
         } else {
             return redirect('/user/login');
