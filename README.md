@@ -12,6 +12,7 @@ Untuk informasi lebih lanjut Hub
 
 -   URL Files? Check this ([routes/web.php](https://github.com/tamddk/soalone/tree/main/routes))
 -   SQL (sodik_transindodata.sql)
+-   I'm not including program security, this is just sample data.
 
 ## Logo Laravel
 
