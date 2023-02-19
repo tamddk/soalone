@@ -45,7 +45,7 @@ CREATE TABLE `order` (
 --
 
 INSERT INTO `order` (`id_order`, `id_ticket`, `name_order`, `email_order`, `birth_order`, `hp_order`, `address_order`, `type_artist_order`, `type_ticket_order`, `count_ticket_order`) VALUES
-(1, '5r14ZdmebcqV0VhF58J8dh3wt', 'Tubagus Ahmad Sodik', 'tb.sodik@gmail.com', '2023-02-14', '0895325657488', 'Palembang', 'Black Pink', 'VVIP', '2'),
+(1, '5r14ZdmebcqV0VhF58J8dh3wt', 'Tubagus Ahmad Sodik', 'hrd@instagram.com', '2023-02-14', '08123456789', 'Indonesia', 'Black Pink', 'VVIP', '2'),
 (3, 'IiaKQVccXUkiNilpWXG8jzF2y', 'Example 1', 'example@gmail.com', '2023-02-14', '08123456789', 'Indonesia', 'Black Pink', 'VIP A', '1'),
 (4, 'l4LmU7CUbcAl9L1ccB8e6xtXB', 'Example 2', 'example@gmail.com', '2023-02-15', '08123456789', 'Indonesia', 'NCT Dream', 'PINK A', '1');
 
