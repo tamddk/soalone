@@ -6,7 +6,6 @@ Untuk informasi lebih lanjut Hub
 
 -   [Instagram](https://www.instagram.com/tamddk/).
 -   [LinkedIn](https://www.linkedin.com/in/sodikun/).
--   [tb.sodik@gmail.com](mailto:tb.sodik@gmail.com).
 
 ## Informasi Files
 
